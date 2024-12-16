@@ -3,7 +3,7 @@ name: Run Script Periodically
 # Trigger the workflow based on a schedule (every minute in this example)
 on:
   schedule:
-    - cron: "5 4 * * *"  # Adjust the timing here if needed
+    - cron: "0 */4 * * *"  # Adjust the timing here if needed
   workflow_dispatch: # Allows you to trigger manually if required
 
 jobs:
